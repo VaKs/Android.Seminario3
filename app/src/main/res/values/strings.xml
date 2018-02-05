@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">QuotationShake</string>
+    <string name="btnFavoritos">Citas favoritas</string>
+    <string name="btnCita">Conseguir Citas</string>
+    <string name="btnConfiguracion">Configuración</string>
+    <string name="btnSobre">Información</string>
+    <string name="LayoutAbout">Información</string>
+    <string name="txtInfo">QuotationShake por Sergio y David</string>
+    <string name="LayoutSettings">Opciones</string>
+
+</resources>

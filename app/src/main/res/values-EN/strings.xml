@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">QuotationShake</string>
+    <string name="btnFavoritos">Favourite Quotations</string>
+    <string name="btnCita">Get Quotations</string>
+    <string name="btnConfiguracion">Settings</string>
+    <string name="btnSobre">About</string>
+    <string name="LayoutAbout">About</string>
+    <string name="txtInfo">QuotationShake by Sergio and David</string>
+</resources>

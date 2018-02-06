@@ -18,8 +18,12 @@
         </activity>
         <activity
             android:name=".About"
-            android:label="@string/LayoutAbout"></activity>
-        <activity android:name=".settingsActivity" android:label="@string/LayoutSettings"></activity>
+            android:label="@string/LayoutAbout" />
+        <activity
+            android:name=".settingsActivity"
+            android:label="@string/LayoutSettings" />
+        <activity android:name=".FavouriteActivity" />
+        <activity android:name=".QuotationActivity"></activity>
     </application>
 
 </manifest>

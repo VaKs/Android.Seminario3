@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">QuotationShake</string>
-    <string name="btnFavoritos">Citas favoritas</string>
+    <string name="app_name" translatable="false">QuotationShake</string>
+    <string name="btnFavoritos">Citas Favoritas</string>
     <string name="btnCita">Conseguir Citas</string>
     <string name="btnConfiguracion">Configuración</string>
     <string name="btnSobre">Información</string>
@@ -9,8 +9,13 @@
     <string name="LayoutSettings">Opciones</string>
     <string name="txtName">Nombre que identifica al usuario</string>
     <string name="insertName">Inserte su nombre</string>
-    <string name="txtLanguage">Las citas seran recibidas en el siguiente idioma</string>
+    <string name="txtLanguage">Las citas seran recibidas en el idioma selecionado</string>
     <string name="txtHTTP">Las peticiones web se harán mediante el siguiente metodo HTTP</string>
-    <string name="radButGet">GET</string>
-    <string name="radButPost">POST</string>
+    <string name="radButGet" translatable="false">GET</string>
+    <string name="radButPost" translatable="false">POST</string>
+    <string name="butAutorInfo">Informacion del autor</string>
+    <string name="LayoutFavorite">Citas Favoritas</string>
+    <string name="LayoutRandom">Citas Aleatorias</string>
+    <string name="txtHello">Hola...</string>
+    <string name="txtCitaRnd">¡Hola Desconocido! ¡Pulse refrescar para conseguir una nueva cita!</string>
 </resources>

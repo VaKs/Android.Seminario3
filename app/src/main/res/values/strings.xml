@@ -7,5 +7,10 @@
     <string name="LayoutAbout">Información</string>
     <string name="txtInfo">QuotationShake por Sergio y David</string>
     <string name="LayoutSettings">Opciones</string>
-
+    <string name="txtName">Nombre que identifica al usuario</string>
+    <string name="insertName">Inserte su nombre</string>
+    <string name="txtLanguage">Las citas seran recibidas en el siguiente idioma</string>
+    <string name="txtHTTP">Las peticiones web se harán mediante el siguiente metodo HTTP</string>
+    <string name="radButGet">GET</string>
+    <string name="radButPost">POST</string>
 </resources>

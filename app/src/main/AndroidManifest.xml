@@ -22,8 +22,14 @@
         <activity
             android:name=".settingsActivity"
             android:label="@string/LayoutSettings" />
-        <activity android:name=".FavouriteActivity" />
-        <activity android:name=".QuotationActivity"></activity>
+        <activity
+            android:name=".FavouriteActivity"
+            android:label="@string/LayoutFavorite"/>
+        <activity
+            android:name=".QuotationActivity"
+            android:label="@string/LayoutRandom">
+
+        </activity>
     </application>
 
 </manifest>

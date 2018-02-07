@@ -7,7 +7,7 @@
     tools:context="dsm.servabo.cambiodevista.FavouriteActivity">
 
     <Button
-        android:id="@+id/butAutorInfo"
+        android:id="@+id/bntAutorInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"

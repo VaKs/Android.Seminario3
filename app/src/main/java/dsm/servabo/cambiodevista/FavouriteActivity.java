@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import static dsm.servabo.cambiodevista.R.id.bntAutorInfo;
+//import static dsm.servabo.cambiodevista.R.id.bntAutorInfo;
 
 public class FavouriteActivity extends AppCompatActivity {
 
@@ -16,7 +16,7 @@ public class FavouriteActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_favourite);
 
-        Button botonAutor = findViewById(bntAutorInfo);
+       /* Button botonAutor = findViewById(bntAutorInfo);
         botonAutor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -24,7 +24,7 @@ public class FavouriteActivity extends AppCompatActivity {
                 intent.setData(Uri.parse("http://en.wikipedia.org/wiki/Special:Search?search=Albert_Einstein"));
                 startActivity(intent);
             }
-        });
+        });*/
 
     }
 }

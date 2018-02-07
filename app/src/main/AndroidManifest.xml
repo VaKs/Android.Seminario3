@@ -21,7 +21,8 @@
             android:label="@string/LayoutAbout" />
         <activity
             android:name=".settingsActivity"
-            android:label="@string/LayoutSettings" />
+            android:label="@string/LayoutSettings"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
         <activity
             android:name=".FavouriteActivity"
             android:label="@string/LayoutFavorite"/>

@@ -18,4 +18,6 @@
     <string name="LayoutRandom">Citas Aleatorias</string>
     <string name="txtHello">Hola...</string>
     <string name="txtCitaRnd">¡Hola Desconocido! ¡Pulse refrescar para conseguir una nueva cita!</string>
+    <string name="ingles">Ingles</string>
+    <string name="ruso">Ruso</string>
 </resources>

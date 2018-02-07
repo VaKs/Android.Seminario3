@@ -31,6 +31,7 @@
             android:layout_marginTop="8dp"
             android:ems="10"
             android:inputType="textPersonName"
+            android:selectAllOnFocus="false"
             android:text="@string/insertName"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -57,7 +58,8 @@
             android:layout_marginTop="8dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txtLanguage" />
+            app:layout_constraintTop_toBottomOf="@+id/txtLanguage"
+            android:entries="@array/arrayMagico"/>
 
         <TextView
             android:id="@+id/selType"

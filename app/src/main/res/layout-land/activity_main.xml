@@ -15,37 +15,37 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:text="@string/btnCita"
-        app:layout_constraintBottom_toTopOf="@+id/btnFav"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintBottom_toTopOf="@+id/btnInfo"
+        app:layout_constraintEnd_toStartOf="@+id/btnFav"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.2"
-        app:layout_constraintVertical_chainStyle="spread" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnFav"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:text="@string/btnFavoritos"
         app:layout_constraintBottom_toTopOf="@+id/btnConf"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnCitas" />
+        app:layout_constraintStart_toEndOf="@+id/btnCitas"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnConf"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:text="@string/btnConfiguracion"
-        app:layout_constraintBottom_toTopOf="@+id/btnInfo"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnInfo"
         app:layout_constraintTop_toBottomOf="@+id/btnFav" />
 
     <Button
@@ -58,10 +58,8 @@
         android:layout_marginTop="8dp"
         android:text="@string/btnSobre"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintEnd_toStartOf="@+id/btnConf"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnConf"
-        app:layout_constraintVertical_bias="0.115" />
+        app:layout_constraintTop_toBottomOf="@+id/btnCitas" />
 
 </android.support.constraint.ConstraintLayout>

@@ -16,4 +16,6 @@
     <string name="LayoutRandom">Random Quotations</string>
     <string name="txtHello">Hello...</string>
     <string name="txtCitaRnd">Hello Nameless One! Press refresh to get a new quotation!</string>
+    <string name="ingles">English</string>
+    <string name="ruso">Russian</string>
 </resources>

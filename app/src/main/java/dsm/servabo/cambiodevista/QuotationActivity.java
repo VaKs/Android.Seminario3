@@ -27,7 +27,7 @@ public class QuotationActivity extends AppCompatActivity {
             public void onClick(View arg0) {
                 Toast.makeText(QuotationActivity.this,
                         "ImageButton is clicked!", Toast.LENGTH_SHORT).show();
-               //TextView txtCita = findViewById(R.id.txtCitaHello);
+                //TextView txtCita = findViewById(R.id.txtCitaHello);
                 //txtCita.setText("sample quotation");
 
             }

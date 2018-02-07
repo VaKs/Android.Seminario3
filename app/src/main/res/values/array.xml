@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="arrayMagico">
+        <item name="English">@string/ingles</item>
+        <item name="Russian">@string/ruso</item>
+    </array>
+</resources>
